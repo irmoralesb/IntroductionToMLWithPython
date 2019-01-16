@@ -1,0 +1,34 @@
+Regression Models
+* Regularization Parameter: alpha
+    * Large values for alpha means "simple models"
+    * Very important to tune in this parameter value
+    * Usually searched for on a logarithmic scale.
+
+
+
+Classification Models
+* Regularization Parameter: C
+    * Small values for C means "simple models"
+    * Very important to tune in this parameter value
+    * Usually searched for on a logarithmic scale.
+
+L1 and L2 Regularization
+* L1
+    * If you estimate few features are important
+    * If interoperability of the model is important
+* L2
+    * This is the default
+    * If all of the features are important
+
+!!!Linear models are very fast to train, and also fast to predict!!!
+!!!Linear models often perform well when the number of features is large compared to the number of samples!!!
+
+
+HOMEWORK:
+* solver='sag' parameter: works on Logistic Regression and Ridge, this is faster on large datasets.
+* SGDClassifier class
+* SGDRegressor class
+
+
+
+
